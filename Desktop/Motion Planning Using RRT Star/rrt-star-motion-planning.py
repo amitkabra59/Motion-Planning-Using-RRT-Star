@@ -106,7 +106,7 @@ def main():
         elif currentState == 'goalFound':
             currNode = goalNode.parent
             pygame.display.set_caption('Goal Reached')
-            print "Goal Reached"
+            print ("Goal Reached")
             
             
             while currNode.parent != None:
